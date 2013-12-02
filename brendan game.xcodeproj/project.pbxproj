@@ -184,10 +184,14 @@
 		F132EC0F184BCDD000E6E82E /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F132EC0E184BCDD000E6E82E /* b2Rope.cpp */; };
 		F132EC15184BCDD000E6E82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F132EC14184BCDD000E6E82E /* main.m */; };
 		F132EC18184BCDD000E6E82E /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F132EC17184BCDD000E6E82E /* AppDelegate.mm */; };
-		F132EC1B184BCDD000E6E82E /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F132EC1A184BCDD000E6E82E /* HelloWorldLayer.mm */; };
-		F132EC1E184BCDD000E6E82E /* IntroLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F132EC1D184BCDD000E6E82E /* IntroLayer.mm */; };
 		F132EC21184BCDD000E6E82E /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = F132EC20184BCDD000E6E82E /* GLES-Render.mm */; };
 		F132EC23184BCDD000E6E82E /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = F132EC22184BCDD000E6E82E /* blocks.png */; };
+		F132EC2B184BD52000E6E82E /* MenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F132EC2A184BD52000E6E82E /* MenuLayer.mm */; };
+		F148C166184BE11F0085356C /* GameLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F148C165184BE11F0085356C /* GameLayer.mm */; };
+		F148C168184BEA790085356C /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = F148C167184BEA790085356C /* player.png */; };
+		F148C16B184BF9DB0085356C /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = F148C16A184BF9DB0085356C /* MyContactListener.mm */; };
+		F148C16D184C14790085356C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F148C16C184C14790085356C /* background.png */; };
+		F148C170184C15940085356C /* IntroLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F148C16F184C15940085356C /* IntroLayer.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -562,13 +566,19 @@
 		F132EC14184BCDD000E6E82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F132EC16184BCDD000E6E82E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F132EC17184BCDD000E6E82E /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		F132EC19184BCDD000E6E82E /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		F132EC1A184BCDD000E6E82E /* HelloWorldLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
-		F132EC1C184BCDD000E6E82E /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		F132EC1D184BCDD000E6E82E /* IntroLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = IntroLayer.mm; sourceTree = "<group>"; };
 		F132EC1F184BCDD000E6E82E /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		F132EC20184BCDD000E6E82E /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		F132EC22184BCDD000E6E82E /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		F132EC29184BD52000E6E82E /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
+		F132EC2A184BD52000E6E82E /* MenuLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MenuLayer.mm; sourceTree = "<group>"; };
+		F148C164184BE11F0085356C /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLayer.h; path = ../GameLayer.h; sourceTree = "<group>"; };
+		F148C165184BE11F0085356C /* GameLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameLayer.mm; path = ../GameLayer.mm; sourceTree = "<group>"; };
+		F148C167184BEA790085356C /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = Resources/player.png; sourceTree = "<group>"; };
+		F148C169184BF9DB0085356C /* MyContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContactListener.h; sourceTree = "<group>"; };
+		F148C16A184BF9DB0085356C /* MyContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyContactListener.mm; sourceTree = "<group>"; };
+		F148C16C184C14790085356C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = "<group>"; };
+		F148C16E184C15940085356C /* IntroLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
+		F148C16F184C15940085356C /* IntroLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IntroLayer.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -629,12 +639,16 @@
 		F132E9F2184BCDCE00E6E82E /* brendan game */ = {
 			isa = PBXGroup;
 			children = (
+				F148C16E184C15940085356C /* IntroLayer.h */,
+				F148C16F184C15940085356C /* IntroLayer.mm */,
+				F148C169184BF9DB0085356C /* MyContactListener.h */,
+				F148C16A184BF9DB0085356C /* MyContactListener.mm */,
+				F148C164184BE11F0085356C /* GameLayer.h */,
+				F148C165184BE11F0085356C /* GameLayer.mm */,
 				F132EC16184BCDD000E6E82E /* AppDelegate.h */,
 				F132EC17184BCDD000E6E82E /* AppDelegate.mm */,
-				F132EC19184BCDD000E6E82E /* HelloWorldLayer.h */,
-				F132EC1A184BCDD000E6E82E /* HelloWorldLayer.mm */,
-				F132EC1C184BCDD000E6E82E /* IntroLayer.h */,
-				F132EC1D184BCDD000E6E82E /* IntroLayer.mm */,
+				F132EC29184BD52000E6E82E /* MenuLayer.h */,
+				F132EC2A184BD52000E6E82E /* MenuLayer.mm */,
 				F132EC1F184BCDD000E6E82E /* GLES-Render.h */,
 				F132EC20184BCDD000E6E82E /* GLES-Render.mm */,
 				F132E9F3184BCDCE00E6E82E /* Resources */,
@@ -647,6 +661,8 @@
 		F132E9F3184BCDCE00E6E82E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F148C16C184C14790085356C /* background.png */,
+				F148C167184BEA790085356C /* player.png */,
 				F132E9F4184BCDCE00E6E82E /* Default.png */,
 				F132E9F6184BCDCE00E6E82E /* Default@2x.png */,
 				F132E9F8184BCDCE00E6E82E /* Default-568h@2x.png */,
@@ -1235,6 +1251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F148C168184BEA790085356C /* player.png in Resources */,
+				F148C16D184C14790085356C /* background.png in Resources */,
 				F132EA05184BCDCE00E6E82E /* Icon.png in Resources */,
 				F132EB63184BCDCF00E6E82E /* ChangeLog in Resources */,
 				F132E9F7184BCDCE00E6E82E /* Default@2x.png in Resources */,
@@ -1301,6 +1319,7 @@
 				F132EB94184BCDCF00E6E82E /* b2DynamicTree.cpp in Sources */,
 				F132EBC0184BCDCF00E6E82E /* b2ContactManager.cpp in Sources */,
 				F132EA89184BCDCE00E6E82E /* CCParticleExamples.m in Sources */,
+				F148C166184BE11F0085356C /* GameLayer.mm in Sources */,
 				F132EA86184BCDCE00E6E82E /* CCParticleBatchNode.m in Sources */,
 				F132EBA1184BCDCF00E6E82E /* b2EdgeShape.cpp in Sources */,
 				F132EBC6184BCDCF00E6E82E /* b2Island.cpp in Sources */,
@@ -1354,7 +1373,6 @@
 				F132EAF9184BCDCF00E6E82E /* CCGLView.m in Sources */,
 				F132EB26184BCDCF00E6E82E /* CGPointExtension.m in Sources */,
 				F132EA2A184BCDCE00E6E82E /* CCActionPageTurn3D.m in Sources */,
-				F132EC1B184BCDD000E6E82E /* HelloWorldLayer.mm in Sources */,
 				F132EB7B184BCDCF00E6E82E /* vec3.c in Sources */,
 				F132EB2D184BCDCF00E6E82E /* TGAlib.m in Sources */,
 				F132EA36184BCDCE00E6E82E /* CCAnimation.m in Sources */,
@@ -1384,13 +1402,13 @@
 				F132EA95184BCDCE00E6E82E /* CCPhysicsSprite.mm in Sources */,
 				F132EBF9184BCDCF00E6E82E /* b2MouseJoint.cpp in Sources */,
 				F132EBA4184BCDCF00E6E82E /* b2PolygonShape.cpp in Sources */,
+				F148C170184C15940085356C /* IntroLayer.mm in Sources */,
 				F132EB79184BCDCF00E6E82E /* vec2.c in Sources */,
 				F132EBB9184BCDCF00E6E82E /* b2Timer.cpp in Sources */,
 				F132EB69184BCDCF00E6E82E /* matrix.c in Sources */,
 				F132EBDA184BCDCF00E6E82E /* b2Contact.cpp in Sources */,
 				F132EA4F184BCDCE00E6E82E /* CCDrawingPrimitives.m in Sources */,
 				F132EAB7184BCDCE00E6E82E /* ccShaders.m in Sources */,
-				F132EC1E184BCDD000E6E82E /* IntroLayer.mm in Sources */,
 				F132EBCD184BCDCF00E6E82E /* b2WorldCallbacks.cpp in Sources */,
 				F132EBED184BCDCF00E6E82E /* b2DistanceJoint.cpp in Sources */,
 				F132EB0D184BCDCF00E6E82E /* CCWindow.m in Sources */,
@@ -1407,8 +1425,10 @@
 				F132EAA2184BCDCE00E6E82E /* CCScheduler.m in Sources */,
 				F132EAF2184BCDCF00E6E82E /* CCDirectorIOS.m in Sources */,
 				F132EA74184BCDCE00E6E82E /* CCMenu.m in Sources */,
+				F148C16B184BF9DB0085356C /* MyContactListener.mm in Sources */,
 				F132EB7D184BCDCF00E6E82E /* vec4.c in Sources */,
 				F132EB97184BCDCF00E6E82E /* b2TimeOfImpact.cpp in Sources */,
+				F132EC2B184BD52000E6E82E /* MenuLayer.mm in Sources */,
 				F132EA3F184BCDCE00E6E82E /* CCCamera.m in Sources */,
 				F132EA39184BCDCE00E6E82E /* CCAnimationCache.m in Sources */,
 				F132EA5B184BCDCE00E6E82E /* CCGLProgram.m in Sources */,
@@ -1468,6 +1488,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "brendan game/Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1477,6 +1498,7 @@
 				);
 				HEADER_SEARCH_PATHS = "\"brendan game/libs/kazmath/include\"";
 				INFOPLIST_FILE = "brendan game/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1493,6 +1515,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "brendan game/Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1502,6 +1525,7 @@
 				);
 				HEADER_SEARCH_PATHS = "\"brendan game/libs/kazmath/include\"";
 				INFOPLIST_FILE = "brendan game/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1533,6 +1557,7 @@
 				F132EC28184BCDD000E6E82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
