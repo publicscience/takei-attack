@@ -1,3 +1,3 @@
 a game from the public science gamehackathon 2013
 
-[[screenshot.png]]
+![takei-attack](https://github.com/ftzeng/takei-attack/blob/master/screen.png)
